@@ -37,7 +37,6 @@
       <a href="#about-the-project">About Swapping Connect v2</a>
       <ul>
     <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#installation">Installation</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -71,16 +70,6 @@ Features:
 
 Here is a list of prerequisites you need for Swapping Connect v2.
 * <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.0-windows-x64-installer"><strong>.NET 6 Runtime</strong></a>
-
-
-### Installation
-
-_Below is a short tutorial on how to download and setup Swapping Connect v2._
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 
