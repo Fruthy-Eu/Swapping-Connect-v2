@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Windows.Forms;
 using SwappingConnectV2.Main.Classes;
@@ -46,7 +46,7 @@ namespace SwappingConnectV2.Panels
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            Process.Start(Variables.KEY_LINK);
+            Process.Start(Statics.index.KeyLink);
         }
     }
 }
