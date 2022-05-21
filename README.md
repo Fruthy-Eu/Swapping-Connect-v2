@@ -115,6 +115,10 @@ Project Link: [https://github.com/Fruthy-Ue/Swapping-Connect-v2](https://github.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
+| Contributor | Contribution |
+| ----------- | ----------- |
+| [Tamely#6469](https://github.com/Tamely)   | Developer Of Swapping Connect v2 Program |
+| [shady#9999](https://github.com/u4pak)   | Developer Of Connect Launcher |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
