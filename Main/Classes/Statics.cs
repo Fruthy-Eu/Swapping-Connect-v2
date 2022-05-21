@@ -10,5 +10,6 @@ namespace SwappingConnectV2.Main.Classes
     {
         public static DiscordRpc discordRpc = new DiscordRpc();
         public static Config config = new Config();
+        public static IndexModel index = JsonConvert.DeserializeObject<IndexModel>(new WebClient().DownloadString(Variables.INDEX_ENDPOINT));
     }
 }
