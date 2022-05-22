@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net;
@@ -25,6 +25,13 @@ namespace SwappingConnectV2.Main.GUI
             }
             else
                 DashPanel.Instance.BringToFront();
+
+            if (Variables.USER_VERSION != Statics.index.Version)
+            {
+                MessageBox.Show("Error: Outdated version", "You are currently using an outdated version of the program! Please go to the Discord server and download the latest version!");
+                Process.Start(Statics.index.DiscordServer);
+                Process.GetCurrentProcess().Kill();
+            }
 
 
             var currentUser = Statics.discordRpc.ReturnUser(); // Get the current user

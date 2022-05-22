@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SwappingConnectV2.Main.Classes
 {
@@ -9,9 +9,9 @@ namespace SwappingConnectV2.Main.Classes
         public static string targetSwapperPath { get; set; }
         public static ItemType currentType = ItemType.Skin;
 
-        public const string KEY_LINK = "https://linkvertise.com";
-        public const string BASE_ENDPOINT = "https://localhost:7004";
-        public const string ITEMS_ENDPOINT = "https://pastebin.com/raw/xwMV6Gvu";
+        public const string INDEX_ENDPOINT = "https://github.com/Fruthy-Ue/Swapping-Connect-v2-Api/raw/main/Index";
+        //public const string BASE_ENDPOINT = "https://localhost:7004";
+        public const string ITEMS_ENDPOINT = "https://raw.githubusercontent.com/Fruthy-Ue/Swapping-Connect-v2-Api/main/Items/Items";
         public const string USER_VERSION = "1.0.0";
         
         public static readonly string BasePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SwappingConnectV2\\";

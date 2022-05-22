@@ -1,4 +1,4 @@
-﻿#nullable enable
+#nullable enable
 using DiscordRPC;
 using DiscordRPC.Message;
 using System;
@@ -42,7 +42,7 @@ namespace SwappingConnectV2.Main.Classes
             new()
             {
                 Label = "Discord",
-                Url = "https://discord.gg/uShUdSE3ME"
+                Url = "https://discord.gg/zh6JJv9U3E"
             }
         };
 
